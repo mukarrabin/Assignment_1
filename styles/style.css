@@ -8,7 +8,7 @@
 .font-inter{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: weight;
   font-style: normal;
 }
 
@@ -20,8 +20,15 @@
     font-size: 16px;
 }
 
-.btn-color{
+.reg-btn{
     background-color: blue;
+    padding: 12px 36px;
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    outline: none;
 }
 header{
     margin: 23.5px 115.5px;
@@ -31,4 +38,39 @@ header nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.banner{
+
+    background-image:url("../assets/banner.jpg");
+    width: 1551px;
+    height: 786;
+    
+}
+
+.motto{
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+    font-size: 80px;
+    color: white;
+    font-weight: 700;
+
+}
+.bnr-description{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 0px;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 350px;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+.speaker-heading{
+    text-align: center;
 }
