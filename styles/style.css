@@ -74,3 +74,44 @@ header nav{
 .speaker-heading{
     text-align: center;
 }
+
+.card-role{
+    font-size: 12px;
+    font-weight: 600;
+    color:#2563ebFF;
+    line-height: 1.5;
+    letter-spacing: 0.3px;
+    padding: 0px 0px 0px 12px;
+}
+
+.card-name{
+    font-size: 20px;
+    font-weight: 700;
+    color:#0d1b2aFF;
+    line-height: 1.375;
+    padding: 0px 0px 0px 12px;
+}
+.card-company{
+    font-size: 14px;
+    font-weight: 400;
+    color: #575757FF;
+    line-height: 1.5;
+    padding: 0px 0px 0px 12px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+.card-img{
+    width: 100%;
+}
+.speakers{
+    margin: 32px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
