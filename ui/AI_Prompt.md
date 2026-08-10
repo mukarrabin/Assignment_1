@@ -1,0 +1,1 @@
+generate some idea to add a new section in a coference website. the website already have navbar, banner, speakers and pricing section.
