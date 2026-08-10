@@ -6,9 +6,15 @@
 
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: "Inter", sans-serif;
     color: #08182b;
     background-color: white;
+}
+
+input,
+textarea,
+button {
+    font-family: "Inter", sans-serif;
 }
 
 .website-header {
@@ -38,7 +44,7 @@ body {
     gap: 30px;
 }
 
-.navigation-menu span {
+.navigation-menu {
     color: #333333;
     font-size: 15px;
 }
@@ -53,20 +59,15 @@ body {
 }
 
 
-/* ================================
-   HERO SECTION
-================================ */
-
 .hero-section {
     width: 100%;
     height: 755px;
 
     background-image:
         linear-gradient(
-            rgba(0, 0, 0, 0.62),
             rgba(0, 0, 0, 0.62)
         ),
-        url("bg-image.jpg");
+        url("../assets/banner.jpg");
 
     background-size: cover;
     background-position: center;
@@ -92,10 +93,6 @@ body {
     color: white;
     font-size: 72px;
     line-height: 1.1;
-}
-
-.hero-content h1 span {
-    font-style: italic;
 }
 
 .hero-content p {
