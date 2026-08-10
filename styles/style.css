@@ -1,76 +1,122 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-*{
+* {
+    box-sizing: border-box;
+}
+
+body {
     margin: 0;
-    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #08182b;
+    background-color: white;
 }
 
-.font-inter{
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
+.website-header {
+    width: 100%;
+    height: 98px;
+    background-color: white;
 }
 
-.navigation-menu{
-    display: flex;
-    gap: 24px;
-    font-family: "Inter", sans-serif;
-    color: #575757FF;
-    font-size: 16px;
-}
+.navbar {
+    max-width: 1320px;
+    height: 100%;
+    margin: auto;
+    padding: 0 25px;
 
-.reg-btn{
-    background-color: blue;
-    padding: 12px 36px;
-    border-radius: 10px;
-    font-size: 16px;
-    color: white;
-    font-weight: 600;
-    border: none;
-    outline: none;
-}
-header{
-    margin: 23.5px 115.5px;
-}
-
-header nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.banner{
-
-    background-image:url("../assets/banner.jpg");
-    width: 1551px;
-    height: 786;
-    
+.logo-image {
+    width: 145px;
+    height: auto;
 }
 
-.motto{
+.navigation-menu {
     display: flex;
-    justify-content: center;
-    padding-top: 120px;
-    font-size: 80px;
-    color: white;
-    font-weight: 700;
-
+    gap: 30px;
 }
-.bnr-description{
+
+.navigation-menu span {
+    color: #333333;
+    font-size: 15px;
+}
+
+.nav-button {
+    padding: 15px 43px;
+    border-radius: 9px;
     color: white;
+    background-color: #2458df;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+/* ================================
+   HERO SECTION
+================================ */
+
+.hero-section {
+    width: 100%;
+    height: 755px;
+
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.62),
+            rgba(0, 0, 0, 0.62)
+        ),
+        url("bg-image.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-content {
+    max-width: 1100px;
+    height: 100%;
+    margin: auto;
+    padding: 130px 20px 75px;
+
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    color: white;
     text-align: center;
-    padding-top: 0px;
+}
+
+.hero-content h1 {
+    margin: 0;
+    color: white;
+    font-size: 72px;
+    line-height: 1.1;
+}
+
+.hero-content h1 span {
+    font-style: italic;
+}
+
+.hero-content p {
+    max-width: 800px;
+    margin: 28px 0 0;
+    color: white;
     font-size: 22px;
-    font-weight: 400;
-    margin-bottom: 350px;
+    line-height: 24px;
 }
-.btn-container{
-    display: flex;
-    justify-content: center;
+
+.hero-button {
+    margin-top: auto;
+    padding: 22px 65px;
+    border-radius: 9px;
+    color: white;
+    background-color: #2458df;
+    font-size: 23px;
+    font-weight: bold;
 }
+
+
 .speaker-heading{
     text-align: center;
 }
@@ -114,4 +160,18 @@ header nav{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
+}
+
+.pricing-title{
+    text-align: center;
+}
+.offer-deadline{
+    text-align: center;
+}
+.price-list{
+    display: flex;
+    flex-direction: raw;
+    gap: 8px;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
 }
