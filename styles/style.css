@@ -113,62 +113,199 @@ button {
     font-weight: bold;
 }
 
+.speakers-section {
+    padding: 85px 20px 135px;
+    background-color: white;
+}
 
-.speaker-heading{
+.section-title {
+    margin: 0 0 60px;
+    color: black;
     text-align: center;
+    font-size: 52px;
 }
 
-.card-role{
+.speakers-container {
+    width: 1260px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.speaker-card {
+    width: 614px;
+    border: 1px solid #d9dee5;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.speaker-image {
+    display: block;
+    width: 100%;
+    height: 310px;
+}
+
+.speaker-information {
+    padding: 24px;
+}
+
+.speaker-topic {
+    margin: 0 0 12px;
+    color: #1554e8;
     font-size: 12px;
-    font-weight: 600;
-    color:#2563ebFF;
-    line-height: 1.5;
-    letter-spacing: 0.3px;
-    padding: 0px 0px 0px 12px;
+    font-weight: bold;
 }
 
-.card-name{
+.speaker-information h3 {
+    margin: 0 0 12px;
+    color: black;
     font-size: 20px;
-    font-weight: 700;
-    color:#0d1b2aFF;
-    line-height: 1.375;
-    padding: 0px 0px 0px 12px;
-}
-.card-company{
-    font-size: 14px;
-    font-weight: 400;
-    color: #575757FF;
-    line-height: 1.5;
-    padding: 0px 0px 0px 12px;
 }
 
-.card{
+.speaker-job {
+    margin: 0;
+    color: #525252;
+    font-size: 14px;
+}
+
+.pricing-section {
+    padding: 40px 20px 110px;
+    background-color: white;
+}
+
+.pricing-title {
+    margin: 0;
+    color: #08182b;
+    text-align: center;
+    font-size: 48px;
+}
+
+.pricing-subtitle {
+    margin: 15px 0 50px;
+    color: #6a7078;
+    text-align: center;
+    font-size: 15px;
+}
+
+.pricing-container {
+    max-width: 1120px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+}
+
+.pricing-card {
+    width: 355px;
+    height: 425px;
+    padding: 32px 30px 30px;
+    border: 1px solid #dce1e7;
+    border-radius: 11px;
+    background-color: white;
     display: flex;
     flex-direction: column;
-    gap: 8px;
-    background-color: white;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
-}
-.card-img{
-    width: 100%;
-}
-.speakers{
-    margin: 32px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
 }
 
-.pricing-title{
-    text-align: center;
+.plan-name {
+    margin: 0 0 8px;
+    color: #7a828d;
+    font-size: 13px;
+    font-weight: bold;
 }
-.offer-deadline{
-    text-align: center;
+
+.price {
+    margin: 0;
+    color: #08182b;
+    font-size: 44px;
 }
-.price-list{
-    display: flex;
-    flex-direction: raw;
-    gap: 8px;
+
+.price-information {
+    margin: 3px 0 22px;
+    color: #717780;
+    font-size: 13px;
+}
+
+.pricing-card hr {
+    width: 100%;
+    margin: 0 0 15px;
+    border: none;
+    border-top: 1px solid #dce1e7;
+}
+
+.feature-list {
+    flex-grow: 1;
+    margin: 0 0 20px;
+    padding-left: 17px;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+
+.feature-list li span {
+    color: #172033;
+}
+
+.price-button {
+    width: 100%;
+    padding: 13px;
+    border-radius: 7px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.standard-button {
+    border: 1px solid #2563eb;
+    color: #2563eb;
     background-color: white;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+
+/* Pro pricing card */
+
+.pro-card {
+    border-color: #0c1b2c;
+    color: white;
+    background-color: #0c1b2c;
+}
+
+.pro-card .price {
+    color: white;
+}
+
+.pro-card .price-information {
+    color: #a7b1be;
+}
+
+.pro-card hr {
+    border-color: #263647;
+}
+
+.pro-card .feature-list li span {
+    color: white;
+}
+
+.pro-plan-name {
+    color: #55a2ff;
+}
+
+.pro-button {
+    border: 1px solid #2864e8;
+    color: white;
+    background-color: #2864e8;
+}
+
+
+/* Team pricing card */
+
+.team-card {
+    background-color: #f8f9fb;
+}
+
+.contact-price-button {
+    border: 1px solid #08182b;
+    color: #08182b;
+    background-color: transparent;
 }
